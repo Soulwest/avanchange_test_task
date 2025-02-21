@@ -11,7 +11,7 @@ include "functions.php";
 $input = ["apple", "banana", "cherry"];
 $result = process_strings($input);
 // Ожидаемый результат: ["*lpp*", "*n*n*b", "yrr*hc"]
-var_dump($result);
+print_r($result);
 
 
 
@@ -36,7 +36,7 @@ define("result", sort_objects(data, 'dick')); // was 'age'
 //	["name" => "Elon", "age" => 25],
 //	["name" => "Snoop Dogg", "age" => 18]
 //];
-var_dump(result);
+print_r(result);
 
 
 
@@ -51,7 +51,7 @@ $input = [1, [2, [3, 4], 5], 6];
 $result = flatten_array($input);
 // Ожидаемый результат: [1, 2, 3, 4, 5, 6]
 
-var_dump($result);
+print_r($result);
 
 
 
@@ -70,4 +70,4 @@ $index = 4;
 $result = get_permutation_at_index($input, $index);
 
 // Ожидаемый результат: "bca"
-var_dump($result);
+print_r($result);

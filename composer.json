@@ -1,0 +1,17 @@
+{
+    "name": "alexm/avanchange_test_task",
+    "description": "AvanChange task",
+    "autoload": {
+        "psr-4": {
+            "Alexm\\AvanchangeTestTask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Mamaev"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    }
+}
