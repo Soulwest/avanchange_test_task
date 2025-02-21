@@ -27,7 +27,8 @@ const data = [
 	["name" => "Pusechka", "dick" => 57],
 	["name" => "Snoop Dogg", "dick" => 18]
 ];
-define("result", sort_objects(data, 'age'));
+// const result = sort_objects(data, 'age'); // What?? const from a function call?? data['dick'] in array, but sorting by 'age' key?
+define("result", sort_objects(data, 'dick')); // was 'age'
 
 // Ожидаемый результат:
 //const data = [ // result ???
